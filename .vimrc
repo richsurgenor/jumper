@@ -24,7 +24,10 @@ call vundle#end()
 
 "set clipboard=unnamed
 
-set background=dark
+"set background=dark
+
+" able to scroll with mouse and click tabs
+set mouse=a
 colorscheme murphy 
 
 hi Normal ctermbg=none
