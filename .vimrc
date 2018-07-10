@@ -28,7 +28,7 @@ call vundle#end()
 
 " able to scroll with mouse and click tabs
 set mouse=a
-colorscheme murphy 
+"colorscheme murphy 
 
 hi Normal ctermbg=none
 
