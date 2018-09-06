@@ -8,7 +8,7 @@ if [ ! -v $vimpath ]; then # If actually has Vim..
         echo "Skipping Vundle..."
     fi
 
-    vim -S .install_vundle
+    #vim -S .install_vundle
 fi
 
 tmuxpath=`which tmux`
@@ -20,3 +20,6 @@ mv ~/.vimrc ~/.vimrc.old
 mv ~/.tmux.conf ~/.tmux.conf.old
 cp .vimrc ~/.vimrc
 cp .tmux.conf ~/.tmux.conf
+
+echo "Done, now launch vim and use :PluginInstall."
+echo "Done, now launch tmux and prefix+I"
